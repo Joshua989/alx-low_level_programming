@@ -1,5 +1,4 @@
-#include
-< stdio.h >
+#include <stdio.h>
 /**
  *main-program entry point.
  *Return:0 success, non zero fail
@@ -20,18 +19,18 @@ int main(void)
 			if (i == j)
 			{
 				continue;
-				if (i == '8' && j == '9')
-				{
-					break;
-				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
-				}
 			}
-			k++;
+			if (i == '8' && j == '9')
+			{
+				break;
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
+		k++;
 	}
 	putchar('\n');
 	return (0);
