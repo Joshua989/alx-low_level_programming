@@ -16,21 +16,21 @@ int main(void)
 				if (i < j && j < m)
 				{
 					putchar(i);
+					putchar(j);
 					putchar(m);
 					if (i == '7' && j == '8' && m == '9')
 					{
 						break;
-						{
-							else
-							{
-								putchar(',');
-								putchar(' ');
-							}
-						}
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
-			putchar ('\n');
-			return
-(0);
 		}
+	}
+	putchar ('\n');
+				return (0);
+}
